@@ -1,0 +1,119 @@
+[2017-03-03T11:08:53,084][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-03T11:08:53,375][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] using [1] data paths, mounts [[New Volume (E:)]], net usable_space [114.8gb], net total_space [115.6gb], spins? [unknown], types [NTFS]
+[2017-03-03T11:08:53,376][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-03T11:08:53,472][INFO ][o.e.n.Node               ] node name [JcMW0Zr] derived from node ID [JcMW0ZriSvmMmw_mdBMLzg]; set [node.name] to override
+[2017-03-03T11:08:53,512][INFO ][o.e.n.Node               ] version[5.2.1], pid[10204], build[db0d481/2017-02-09T22:05:32.386Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-03-03T11:08:57,804][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [aggs-matrix-stats]
+[2017-03-03T11:08:57,804][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [ingest-common]
+[2017-03-03T11:08:57,805][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-expression]
+[2017-03-03T11:08:57,805][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-groovy]
+[2017-03-03T11:08:57,805][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-mustache]
+[2017-03-03T11:08:57,805][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-painless]
+[2017-03-03T11:08:57,805][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [percolator]
+[2017-03-03T11:08:57,806][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [reindex]
+[2017-03-03T11:08:57,806][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty3]
+[2017-03-03T11:08:57,806][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty4]
+[2017-03-03T11:08:57,807][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] no plugins loaded
+[2017-03-03T11:09:03,669][INFO ][o.e.n.Node               ] initialized
+[2017-03-03T11:09:03,669][INFO ][o.e.n.Node               ] [JcMW0Zr] starting ...
+[2017-03-03T11:09:05,066][INFO ][o.e.t.TransportService   ] [JcMW0Zr] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-03-03T11:09:08,223][INFO ][o.e.c.s.ClusterService   ] [JcMW0Zr] new_master {JcMW0Zr}{JcMW0ZriSvmMmw_mdBMLzg}{pHNiSqtwSM6nmvV_fTF3lw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-03-03T11:09:08,704][INFO ][o.e.g.GatewayService     ] [JcMW0Zr] recovered [2] indices into cluster_state
+[2017-03-03T11:09:08,983][INFO ][o.e.h.HttpServer         ] [JcMW0Zr] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-03-03T11:09:08,984][INFO ][o.e.n.Node               ] [JcMW0Zr] started
+[2017-03-03T11:09:09,511][INFO ][o.e.c.r.a.AllocationService] [JcMW0Zr] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[employees][4], [.kibana][0]] ...]).
+[2017-03-03T16:07:31,155][INFO ][o.e.n.Node               ] [JcMW0Zr] stopping ...
+[2017-03-03T16:07:31,218][INFO ][o.e.n.Node               ] [JcMW0Zr] stopped
+[2017-03-03T16:07:31,218][INFO ][o.e.n.Node               ] [JcMW0Zr] closing ...
+[2017-03-03T16:07:31,229][INFO ][o.e.n.Node               ] [JcMW0Zr] closed
+[2017-03-03T16:07:37,585][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-03T16:07:37,685][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] using [1] data paths, mounts [[New Volume (E:)]], net usable_space [114.8gb], net total_space [115.6gb], spins? [unknown], types [NTFS]
+[2017-03-03T16:07:37,686][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-03T16:07:37,744][INFO ][o.e.n.Node               ] node name [JcMW0Zr] derived from node ID [JcMW0ZriSvmMmw_mdBMLzg]; set [node.name] to override
+[2017-03-03T16:07:37,747][INFO ][o.e.n.Node               ] version[5.2.1], pid[10052], build[db0d481/2017-02-09T22:05:32.386Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-03-03T16:07:39,358][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [aggs-matrix-stats]
+[2017-03-03T16:07:39,360][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [ingest-common]
+[2017-03-03T16:07:39,360][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-expression]
+[2017-03-03T16:07:39,364][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-groovy]
+[2017-03-03T16:07:39,365][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-mustache]
+[2017-03-03T16:07:39,365][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-painless]
+[2017-03-03T16:07:39,370][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [percolator]
+[2017-03-03T16:07:39,372][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [reindex]
+[2017-03-03T16:07:39,377][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty3]
+[2017-03-03T16:07:39,379][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty4]
+[2017-03-03T16:07:39,380][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] no plugins loaded
+[2017-03-03T16:07:43,423][INFO ][o.e.n.Node               ] initialized
+[2017-03-03T16:07:43,424][INFO ][o.e.n.Node               ] [JcMW0Zr] starting ...
+[2017-03-03T16:07:44,801][INFO ][o.e.t.TransportService   ] [JcMW0Zr] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-03-03T16:07:47,881][INFO ][o.e.c.s.ClusterService   ] [JcMW0Zr] new_master {JcMW0Zr}{JcMW0ZriSvmMmw_mdBMLzg}{cJOJZdZ6RpakhDz-an2_ZA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-03-03T16:07:48,262][INFO ][o.e.g.GatewayService     ] [JcMW0Zr] recovered [2] indices into cluster_state
+[2017-03-03T16:07:48,934][INFO ][o.e.c.r.a.AllocationService] [JcMW0Zr] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[employees][0], [employees][2], [.kibana][0]] ...]).
+[2017-03-03T16:07:49,240][INFO ][o.e.h.HttpServer         ] [JcMW0Zr] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-03-03T16:07:49,240][INFO ][o.e.n.Node               ] [JcMW0Zr] started
+[2017-03-03T16:08:16,473][INFO ][o.e.n.Node               ] [JcMW0Zr] stopping ...
+[2017-03-03T16:08:16,541][INFO ][o.e.n.Node               ] [JcMW0Zr] stopped
+[2017-03-03T16:08:16,543][INFO ][o.e.n.Node               ] [JcMW0Zr] closing ...
+[2017-03-03T16:08:16,552][INFO ][o.e.n.Node               ] [JcMW0Zr] closed
+[2017-03-03T16:15:23,407][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-03T16:15:23,523][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] using [1] data paths, mounts [[New Volume (E:)]], net usable_space [114.8gb], net total_space [115.6gb], spins? [unknown], types [NTFS]
+[2017-03-03T16:15:23,525][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-03T16:15:23,610][INFO ][o.e.n.Node               ] node name [JcMW0Zr] derived from node ID [JcMW0ZriSvmMmw_mdBMLzg]; set [node.name] to override
+[2017-03-03T16:15:23,615][INFO ][o.e.n.Node               ] version[5.2.1], pid[3896], build[db0d481/2017-02-09T22:05:32.386Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-03-03T16:15:25,127][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [aggs-matrix-stats]
+[2017-03-03T16:15:25,128][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [ingest-common]
+[2017-03-03T16:15:25,129][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-expression]
+[2017-03-03T16:15:25,129][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-groovy]
+[2017-03-03T16:15:25,130][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-mustache]
+[2017-03-03T16:15:25,130][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-painless]
+[2017-03-03T16:15:25,130][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [percolator]
+[2017-03-03T16:15:25,130][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [reindex]
+[2017-03-03T16:15:25,131][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty3]
+[2017-03-03T16:15:25,131][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty4]
+[2017-03-03T16:15:25,133][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] no plugins loaded
+[2017-03-03T16:15:28,980][INFO ][o.e.n.Node               ] initialized
+[2017-03-03T16:15:28,981][INFO ][o.e.n.Node               ] [JcMW0Zr] starting ...
+[2017-03-03T16:15:30,370][INFO ][o.e.t.TransportService   ] [JcMW0Zr] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-03-03T16:15:33,439][INFO ][o.e.c.s.ClusterService   ] [JcMW0Zr] new_master {JcMW0Zr}{JcMW0ZriSvmMmw_mdBMLzg}{WBNYOUaIT0CKxjV4saJzPg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-03-03T16:15:33,813][INFO ][o.e.g.GatewayService     ] [JcMW0Zr] recovered [2] indices into cluster_state
+[2017-03-03T16:15:34,389][INFO ][o.e.c.r.a.AllocationService] [JcMW0Zr] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2017-03-03T16:15:34,691][INFO ][o.e.h.HttpServer         ] [JcMW0Zr] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-03-03T16:15:34,691][INFO ][o.e.n.Node               ] [JcMW0Zr] started
+[2017-03-03T16:29:42,395][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-03T16:29:42,716][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.2.1\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:252) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) [elasticsearch-5.2.1.jar:5.2.1]
+[2017-03-03T16:29:42,768][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.2.1\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:125) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) ~[elasticsearch-5.2.1.jar:5.2.1]
+Caused by: java.lang.IllegalStateException: failed to obtain node locks, tried [[E:\elasticsearch-5.2.1\data\elasticsearch]] with lock id [0]; maybe these locations are not writable or multiple nodes were started without increasing [node.max_local_storage_nodes] (was [1])?
+	at org.elasticsearch.env.NodeEnvironment.<init>(NodeEnvironment.java:260) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:252) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) ~[elasticsearch-5.2.1.jar:5.2.1]
+	... 6 more
+[2017-03-03T17:44:00,639][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-03-03T17:44:00,698][INFO ][o.e.n.Node               ] [JcMW0Zr] stopping ...
+[2017-03-03T17:44:01,265][INFO ][o.e.n.Node               ] [JcMW0Zr] stopped
+[2017-03-03T17:44:01,266][INFO ][o.e.n.Node               ] [JcMW0Zr] closing ...
+[2017-03-03T17:44:01,275][INFO ][o.e.n.Node               ] [JcMW0Zr] closed

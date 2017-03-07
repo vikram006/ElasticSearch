@@ -1,0 +1,73 @@
+[2017-03-02T11:29:30,284][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-02T11:29:31,314][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] using [1] data paths, mounts [[New Volume (E:)]], net usable_space [115gb], net total_space [115.6gb], spins? [unknown], types [NTFS]
+[2017-03-02T11:29:31,315][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-02T11:29:31,318][INFO ][o.e.n.Node               ] node name [JcMW0Zr] derived from node ID [JcMW0ZriSvmMmw_mdBMLzg]; set [node.name] to override
+[2017-03-02T11:29:31,337][INFO ][o.e.n.Node               ] version[5.2.1], pid[7448], build[db0d481/2017-02-09T22:05:32.386Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-03-02T11:29:34,986][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [aggs-matrix-stats]
+[2017-03-02T11:29:34,988][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [ingest-common]
+[2017-03-02T11:29:34,989][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-expression]
+[2017-03-02T11:29:34,990][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-groovy]
+[2017-03-02T11:29:34,990][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-mustache]
+[2017-03-02T11:29:34,990][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-painless]
+[2017-03-02T11:29:34,990][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [percolator]
+[2017-03-02T11:29:34,991][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [reindex]
+[2017-03-02T11:29:34,996][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty3]
+[2017-03-02T11:29:34,998][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty4]
+[2017-03-02T11:29:35,000][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] no plugins loaded
+[2017-03-02T11:29:40,849][INFO ][o.e.n.Node               ] initialized
+[2017-03-02T11:29:40,850][INFO ][o.e.n.Node               ] [JcMW0Zr] starting ...
+[2017-03-02T11:29:43,951][INFO ][o.e.t.TransportService   ] [JcMW0Zr] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-03-02T11:29:47,221][INFO ][o.e.c.s.ClusterService   ] [JcMW0Zr] new_master {JcMW0Zr}{JcMW0ZriSvmMmw_mdBMLzg}{FwJT7-ZLTFO8JsiPLumEjg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-03-02T11:29:47,501][INFO ][o.e.g.GatewayService     ] [JcMW0Zr] recovered [0] indices into cluster_state
+[2017-03-02T11:29:50,127][WARN ][o.e.d.z.UnicastZenPing   ] [JcMW0Zr] failed to send ping to [{#zen_unicast_[::1]_0#}{5n79oGCaSgaIb_iDVunylA}{0:0:0:0:0:0:0:1}{[::1]:9300}]
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][[::1]:9300][internal:discovery/zen/unicast] request_id [7] timed out after [3756ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:908) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+[2017-03-02T11:29:56,674][INFO ][o.e.h.HttpServer         ] [JcMW0Zr] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-03-02T11:29:56,674][INFO ][o.e.n.Node               ] [JcMW0Zr] started
+[2017-03-02T11:30:01,843][INFO ][o.e.c.m.MetaDataCreateIndexService] [JcMW0Zr] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [server, config]
+[2017-03-02T12:06:37,405][INFO ][o.e.n.Node               ] [JcMW0Zr] stopping ...
+[2017-03-02T12:06:37,472][INFO ][o.e.n.Node               ] [JcMW0Zr] stopped
+[2017-03-02T12:06:37,473][INFO ][o.e.n.Node               ] [JcMW0Zr] closing ...
+[2017-03-02T12:06:37,486][INFO ][o.e.n.Node               ] [JcMW0Zr] closed
+[2017-03-02T12:07:47,725][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-02T12:07:47,850][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] using [1] data paths, mounts [[New Volume (E:)]], net usable_space [115gb], net total_space [115.6gb], spins? [unknown], types [NTFS]
+[2017-03-02T12:07:47,851][INFO ][o.e.e.NodeEnvironment    ] [JcMW0Zr] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-02T12:07:47,872][INFO ][o.e.n.Node               ] node name [JcMW0Zr] derived from node ID [JcMW0ZriSvmMmw_mdBMLzg]; set [node.name] to override
+[2017-03-02T12:07:47,877][INFO ][o.e.n.Node               ] version[5.2.1], pid[7476], build[db0d481/2017-02-09T22:05:32.386Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_121/25.121-b13]
+[2017-03-02T12:07:49,672][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [aggs-matrix-stats]
+[2017-03-02T12:07:49,673][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [ingest-common]
+[2017-03-02T12:07:49,675][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-expression]
+[2017-03-02T12:07:49,675][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-groovy]
+[2017-03-02T12:07:49,675][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-mustache]
+[2017-03-02T12:07:49,676][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [lang-painless]
+[2017-03-02T12:07:49,676][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [percolator]
+[2017-03-02T12:07:49,677][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [reindex]
+[2017-03-02T12:07:49,686][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty3]
+[2017-03-02T12:07:49,691][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] loaded module [transport-netty4]
+[2017-03-02T12:07:49,692][INFO ][o.e.p.PluginsService     ] [JcMW0Zr] no plugins loaded
+[2017-03-02T12:07:54,064][INFO ][o.e.n.Node               ] initialized
+[2017-03-02T12:07:54,065][INFO ][o.e.n.Node               ] [JcMW0Zr] starting ...
+[2017-03-02T12:07:55,480][INFO ][o.e.t.TransportService   ] [JcMW0Zr] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-03-02T12:07:58,547][INFO ][o.e.c.s.ClusterService   ] [JcMW0Zr] new_master {JcMW0Zr}{JcMW0ZriSvmMmw_mdBMLzg}{zPDI-kVkQLmweQBsy9ERUA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-03-02T12:07:58,875][INFO ][o.e.g.GatewayService     ] [JcMW0Zr] recovered [1] indices into cluster_state
+[2017-03-02T12:07:59,129][INFO ][o.e.c.r.a.AllocationService] [JcMW0Zr] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2017-03-02T12:07:59,422][INFO ][o.e.h.HttpServer         ] [JcMW0Zr] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-03-02T12:07:59,422][INFO ][o.e.n.Node               ] [JcMW0Zr] started
+[2017-03-02T13:03:00,415][INFO ][o.e.c.m.MetaDataCreateIndexService] [JcMW0Zr] [employees] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2017-03-02T13:03:00,670][INFO ][o.e.c.m.MetaDataMappingService] [JcMW0Zr] [employees/DJd--OOKTl2zFJOSQVgqrw] create_mapping [employee]
+[2017-03-02T13:20:25,327][INFO ][o.e.c.m.MetaDataMappingService] [JcMW0Zr] [employees/DJd--OOKTl2zFJOSQVgqrw] update_mapping [employee]
+[2017-03-02T14:18:30,609][INFO ][o.e.c.m.MetaDataMappingService] [JcMW0Zr] [.kibana/CsCtr_7LSfKx51gyw5Bozw] create_mapping [index-pattern]
+[2017-03-02T14:19:12,487][INFO ][o.e.c.m.MetaDataMappingService] [JcMW0Zr] [.kibana/CsCtr_7LSfKx51gyw5Bozw] create_mapping [timelion-sheet]
+[2017-03-02T16:11:23,839][INFO ][o.e.c.m.MetaDataMappingService] [JcMW0Zr] [.kibana/CsCtr_7LSfKx51gyw5Bozw] update_mapping [config]
+[2017-03-02T16:13:32,502][INFO ][o.e.c.m.MetaDataMappingService] [JcMW0Zr] [.kibana/CsCtr_7LSfKx51gyw5Bozw] create_mapping [search]
+[2017-03-02T16:15:15,208][INFO ][o.e.c.m.MetaDataMappingService] [JcMW0Zr] [.kibana/CsCtr_7LSfKx51gyw5Bozw] create_mapping [visualization]
+[2017-03-02T16:25:23,122][INFO ][o.e.c.m.MetaDataMappingService] [JcMW0Zr] [.kibana/CsCtr_7LSfKx51gyw5Bozw] create_mapping [dashboard]
+[2017-03-02T19:02:50,699][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-03-02T19:02:50,701][INFO ][o.e.n.Node               ] [JcMW0Zr] stopping ...
+[2017-03-02T19:02:51,016][INFO ][o.e.n.Node               ] [JcMW0Zr] stopped
+[2017-03-02T19:02:51,016][INFO ][o.e.n.Node               ] [JcMW0Zr] closing ...
+[2017-03-02T19:02:51,039][INFO ][o.e.n.Node               ] [JcMW0Zr] closed
